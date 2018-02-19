@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- fontawesome and vue2 JS-->
+    <script defer src="js/fontawesome-all.js"></script>
+    <script src="js/vue.js"></script>
+
+</head>
+<body>
+
+    <div id="app" class="container">
+
+        <h1>{{ message }}</h1>
+        <br>
+        <button class="btn btn-primary">Test&nbsp;&nbsp;<i class="fab fa-github-square"></i></button>&nbsp;&nbsp;
+        <i class="fas fa-user"></i>&nbsp;
+        <i class="far fa-user"></i>&nbsp;
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="popper.js/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- My JavaScript -->
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!'
+            }
+        })
+    </script>
+</body>
+</html>
